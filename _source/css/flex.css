@@ -1,0 +1,226 @@
+  /*      BEGIN     //////////////////////////////////////////////////////////////// */
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  
+  
+  /*
+  //			Small Screen focused Media Queries (960px wide)
+  */
+  
+  
+  @media all and (max-width: 980px) {
+ 
+ }
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  
+  
+  /*
+  //			Small Screen focused Media Queries (600px wide)
+  */
+  
+ 
+  @media only screen and (max-width : 800px) {  
+
+.header {
+     width: 520px;
+ }
+ 
+.name {
+     font-size: 35px;
+     letter-spacing: -1px;
+     text-align: center;
+     margin: 100px auto 100px 0px;
+     width: 208px;
+     border-bottom: 4px #000 solid;
+     
+
+}
+ 
+ .introduction {
+     width: 520px;
+ }
+ 
+ .introduction p1 {
+     font-size: 20px;
+     letter-spacing: 1px;
+     line-height: 40px;
+     margin-bottom: 75px;
+     padding-top: 0px;
+ }
+ 
+ .introduction p2 {
+     font-size: 15px;
+     letter-spacing: 1px;
+     line-height: 30px;
+     margin-bottom: 75px;
+     padding-top: 0px;
+ }
+ 
+ /* // - Logos ///////////////////////////////////// */
+ 
+ .introduction wb {
+     height: 12px;
+     width: 140px;
+     margin-left: 1px;
+     margin-right: 1px;
+ }
+ 
+ .introduction rokkan {
+     height: 13px;
+     width: 9px;
+     margin-left: 2px;
+     margin-right: 4px;
+ }
+ 
+ .introduction harvard {
+     height: 12px;
+     width: 9px;
+     margin-left: 2px;
+     margin-right: 4px;
+ }
+ 
+ .introduction cornell {
+     height: 12px;
+     width: 12px;
+     margin-left: 2px;
+     margin-right: 4px;
+ }
+ 
+ .introduction spacer {
+     display: none;
+ }
+
+
+ 
+}
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  
+  
+  /*
+  //			Extra-Small Screen focused Media Queries (600px wide)
+  */
+  
+  
+    @media only screen and (max-width : 600px) {  
+  
+a {
+	  border-bottom: 2px solid #EEE;
+}
+
+a:hover {
+	border-bottom: 2px solid #99FFA0;
+}
+
+.header {
+      width: 300px;
+  }
+ 
+ .name {
+      font-size: 30px;
+      letter-spacing: -1px;
+	  line-height: 40px;
+      text-align: center;
+      margin: 50px auto 50px 0px;
+      width: 178px;
+      border-bottom: 4px #000 solid;
+ }
+ 
+ .body {
+     width: 100%;
+     margin: 0px auto;
+ 
+ }
+ 
+  .introduction {
+      width: 300px;
+  }
+ 
+  .introduction h1 {
+      padding-top: 50px;
+	  font-size: 9px;
+  }
+
+  .introduction p1 {
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 30px;
+      margin-bottom: 75px;
+      padding-top: 0px;
+  }
+ 
+  .introduction p2 {
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 28px;
+      margin-bottom: 75px;
+      padding-top: 0px;
+  }
+ 
+  /* // - Logos ///////////////////////////////////// */
+ 
+  .introduction wb {
+      height: 11px;
+      width: 129px;
+      margin-left: 1px;
+      margin-right: 1px;
+  }
+ 
+  .introduction rokkan {
+      height: 12px;
+      width: 9px;
+      margin-left: 2px;
+      margin-right: 4px;
+  }
+ 
+  .introduction harvard {
+      height: 11px;
+      width: 8px;
+      margin-left: 2px;
+      margin-right: 4px;
+  }
+ 
+  .introduction cornell {
+      height: 11px;
+      width: 11px;
+      margin-left: 2px;
+      margin-right: 4px;
+  }
+  
+  }
+  
+    /* /////////////////////////////////////////////////////////////////////////////// */
+
+  
+  
+  /*
+  //			Retina focused Media Queries
+  */
+  
+  /*
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+  
+    INSERT CSS HERE
+  
+  }
+  */
+  
+  /* //////////////////////////////////////////////////////////////////////   END    */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

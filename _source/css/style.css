@@ -1,0 +1,347 @@
+/* ///////////////////////////////////////////////////////////   +Begin    */
+
+/*
+
+	+Table of Contents
+	==========================================
+
+Search:
+
+	+Begin
+	+Default Styling
+	+ Header
+	+ Body
+		- Introduction
+		- Navigation
+		- Sections
+			i. Icons
+			ii. Content
+	+ Footer
+	
+	+End
+	
+	==========================================
+	
+*/
+
+
+/*
+//			+Default Styling
+*/
+
+@font-face {
+	font-family: Avenir Next Regular;
+	src: url('../fonts/avenir-next-regular.woff');
+}
+
+@font-face {
+	font-family: Avenir Next Demi;
+	src: url('../fonts/avenir-next-demi.woff');
+}
+
+@font-face {
+	font-family: Merriweather;
+	src: url('../fonts/Merriweather-Regular.ttf');
+}
+
+body {
+	font-size: 10px;
+	margin: 0px;
+	padding-bottom: 100px;
+/*	border: 10px #EEE solid;*/
+}
+
+h1 {
+	font-family: 'Avenir Next Demi';
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 300;
+	padding-top: 75px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 3px solid #EEE;
+}
+
+a:hover {
+	border-bottom: 3px solid #99FFA0;
+/*	border-bottom: 3px solid #34ff67;
+	border-bottom: 3px solid #3D4A2D;
+	border-bottom: 3px solid #5757F4;
+	border-bottom: 3px solid #BFF7C3;*/
+}
+
+/*
+//			+Header
+*/
+
+.header {
+	width: 655px;
+	margin: 0px auto;
+} 
+
+/*
+.nymap {
+	background: url('../images/ny_map.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: scroll;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -999;
+	display: none;
+}
+*/
+
+.name {
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	width: 237px;
+	height: 60px;
+	border-bottom: 4px #000 solid;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 100px auto 100px;
+}
+
+/*
+//			+Body
+*/
+
+
+/* // - Introduction ///////////////////////////////////// */
+
+
+.introduction {
+	width: 421px;
+	margin: 0px auto 100px auto;
+	text-align: left;
+}
+
+.introduction p1 {
+	font-size: 25px;
+	font-family: 'Avenir Next Regular', serif;
+	letter-spacing: 1px;
+	line-height: 50px;
+	padding-top: 0px;
+}
+
+.introduction p2 {
+	font-size: 20px;
+	font-family: 'Avenir Next Regular', serif;
+	letter-spacing: 1px;
+	line-height: 40px;
+	margin-bottom: 75px;
+	padding-top: 0px;
+}
+
+/*
+.introduction NY:hover {
+	color: #ffffff;
+}
+*/
+
+/* // - Projects Holders ///////////////////////////////////// */
+
+.projects {
+	text-align: center;
+	font-family: 'Avenir Next Demi';
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+
+.tile {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 33.3333333%;
+}
+
+.tile:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.tile:hover .project {
+	opacity: 1;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+
+/*.tile.one:hover .project.one {
+	display: block;
+}
+
+.tile.two:hover .project.two {
+	display: block;
+}
+
+.tile.three:hover .project.three {
+	display: block;
+}*/
+
+.project {
+	display: block;
+	text-transform: uppercase;
+	opacity: 0;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+
+.project p2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 15%;
+	opacity: .35;
+}
+
+.project-logo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/*.project-logo a {
+	border: none;
+}*/
+
+.project-logo img {
+	margin-top: 45%;
+	width: 70%;
+}
+
+.project p3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 80%;
+}
+
+
+/* // - Project Specifics ///////////////////////////////////// */
+
+
+.tile.one {
+	background-color: #4f91cd;
+	color: #004990;
+}
+
+.tile.two {
+	background-color: #cccccc;
+	color: #ffffff;
+}
+
+.tile.three {
+	background-color: #fe3f4b;
+	color: #000000;
+}
+	
+
+/* // - Logos ///////////////////////////////////// */
+
+.introduction wb {
+	background: url('../images/logo.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: scroll;
+	background-size: 100%;
+	height: 15px;
+	width: 180px;
+	margin-left: 3px;
+	margin-right: 1px;
+	display: inline-block;
+}
+
+.introduction rokkan {
+	background: url('../images/rokkan.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: scroll;
+	background-size: 100%;
+	height: 16px;
+	width: 11px;
+	margin-left: 3px;
+	margin-right: 6px;
+	display: inline-block;
+}
+
+.introduction harvard {
+	background: url('../images/harvard.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: scroll;
+	background-size: 100%;
+	height: 16px;
+	width: 11px;
+	margin-left: 3px;
+	margin-right: 6px;
+	display: inline-block;
+}
+	
+.introduction cornell {
+	background: url('../images/cornell.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: scroll;
+	background-size: 100%;
+	height: 16px;
+	width: 16px;
+	margin-left: 3px;
+	margin-right: 6px;
+	display: inline-block;
+}
+
+.introduction spacer {
+ 	height: 10px;
+ 	width: 30px;
+ 	display: none;
+}
+
+
+/* /////////////////////////////////////////////////////////////   +End    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
