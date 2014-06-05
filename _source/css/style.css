@@ -130,7 +130,7 @@ a:hover {
 */
 
 
-/* // - Introduction ///////////////////////////////////// */
+/* // - Intro and Outro ///////////////////////////////////// */
 
 
 .introduction {
@@ -156,11 +156,11 @@ a:hover {
 	padding-top: 0px;
 }
 
-/*
-.introduction NY:hover {
-	color: #ffffff;
+.outro {
+	float: right;
+	text-align: center;
 }
-*/
+
 
 /* // - Projects Holders ///////////////////////////////////// */
 
