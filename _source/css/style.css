@@ -199,6 +199,10 @@ a:hover {
 	transition: all .7s ease-in-out;
 }
 
+.project a {
+	color: inherit;
+}
+
 .project p2 {
 	position: absolute;
 	top: 0;
@@ -215,15 +219,6 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	left: 0;
-}
-
-/*.project-logo a {
-	border: none;
-}*/
-
-.project-logo img {
-	margin-top: 45%;
-	width: 70%;
 }
 
 .project p3 {
@@ -253,7 +248,21 @@ a:hover {
 	background-color: #fe3f4b;
 	color: #000000;
 }
-	
+
+.project-logo.one img {
+	width: 40%;
+	margin-top: 44%;
+}
+
+.project-logo.two img {
+	width: 70%;
+	margin-top: 46%;
+}
+
+.project-logo.three img {
+	width: 30%;
+	padding-top: 39%;
+}
 
 /* // - Logos ///////////////////////////////////// */
 
