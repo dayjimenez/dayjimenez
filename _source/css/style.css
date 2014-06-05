@@ -52,12 +52,28 @@ body {
 }
 
 h1 {
-	font-family: 'Avenir Next Demi';
+	font-family: 'Avenir Next Demi', sans serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 300;
 	padding-top: 75px;
+}
+
+h2 {
+	font-family: 'Avenir Next Demi';
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+
+p2 {
+	font-family: 'Avenir Next Demi';
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 2em;
+	text-transform: uppercase;
 }
 
 a {
@@ -150,10 +166,10 @@ a:hover {
 
 .projects {
 	text-align: center;
-	font-family: 'Avenir Next Demi';
+/*	font-family: 'Avenir Next Demi';
 	font-size: 12px;
 	letter-spacing: 2px;
-	line-height: 2em;
+	line-height: 2em;*/
 }
 
 .tile {
@@ -191,7 +207,6 @@ a:hover {
 
 .project {
 	display: block;
-	text-transform: uppercase;
 	opacity: 0;
 	-webkit-transition: all .7s ease-in-out;
 	-moz-transition: all .7s ease-in-out;
@@ -203,7 +218,7 @@ a:hover {
 	color: inherit;
 }
 
-.project p2 {
+.project h2 {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -221,7 +236,7 @@ a:hover {
 	left: 0;
 }
 
-.project p3 {
+.project p2 {
 	position: absolute;
 	top: 0;
 	right: 0;
