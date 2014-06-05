@@ -157,7 +157,7 @@ a:hover {
 }
 
 .outro {
-	float: right;
+	clear: right;
 	text-align: center;
 }
 
@@ -255,7 +255,7 @@ a:hover {
 }
 
 .tile.two {
-	background-color: #cccccc;
+	background-color: #262626;
 	color: #ffffff;
 }
 
