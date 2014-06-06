@@ -1,4 +1,4 @@
-/* ///////////////////////////////////////////////////////////   +Begin    */
+/* BEGIN */
 
 /*
 
@@ -25,9 +25,8 @@ Search:
 */
 
 
-/*
-//			+Default Styling
-*/
+/* DEFAULT STYLING */
+/* DEFAULT STYLING */
 
 @font-face {
 	font-family: Avenir Next Regular;
@@ -89,28 +88,14 @@ a:hover {
 	border-bottom: 3px solid #BFF7C3;*/
 }
 
-/*
-//			+Header
-*/
+
+/* TOP BAR */
+/* TOP BAR */
 
 .header {
 	width: 655px;
 	margin: 0px auto;
 } 
-
-/*
-.nymap {
-	background: url('../images/ny_map.png');
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-attachment: scroll;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	z-index: -999;
-	display: none;
-}
-*/
 
 .name {
 	font-size: 40px;
@@ -124,13 +109,14 @@ a:hover {
 	margin: 100px auto 100px;
 }
 
-/*
-//			+Body
-*/
+
+/* CONTENT */
+/* CONTENT */
 
 
-/* // - Intro and Outro ///////////////////////////////////// */
 
+/* CONTENT - INTRODUCTION */
+/* CONTENT - INTRODUCTION */
 
 .introduction {
 	width: 421px;
@@ -161,7 +147,8 @@ a:hover {
 }
 
 
-/* // - Projects Holders ///////////////////////////////////// */
+/* CONTENT - PROJECTS */
+/* CONTENT - PROJECTS */
 
 .projects {
 	text-align: center;
@@ -245,8 +232,8 @@ a:hover {
 }
 
 
-/* // - Project Specifics ///////////////////////////////////// */
-
+/* CONTENT - PROJECT BY PROJECT */
+/* CONTENT - PROJECT BY PROJECT */
 
 .tile.one {
 	background-color: #4f91cd;
@@ -278,7 +265,9 @@ a:hover {
 	padding-top: 39%;
 }
 
-/* // - Logos ///////////////////////////////////// */
+
+/* CONTENT - LOGOS */
+/* CONTENT - LOGOS */
 
 .introduction wb {
 	background: url('../images/logo.png');
@@ -337,34 +326,3 @@ a:hover {
  	width: 30px;
  	display: none;
 }
-
-
-/* /////////////////////////////////////////////////////////////   +End    */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
