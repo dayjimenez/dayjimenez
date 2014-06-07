@@ -66,12 +66,27 @@ h2 {
 	text-transform: uppercase;
 }
 
-p2 {
+h3 {
 	font-family: 'Avenir Next Demi';
 	font-size: 12px;
 	letter-spacing: 2px;
 	line-height: 2em;
 	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Avenir Next Regular', sans serif;
+	font-size: 18px;
+	letter-spacing: .1em;
+	line-height: 1.75em;
+	margin: 0px;
+}
+
+p2 {
+	font-family: 'Avenir Next Regular', sans serif;
+	font-size: 12px;
+	letter-spacing: .1em;
+	line-height: 1.75em;
 }
 
 a {
@@ -89,17 +104,31 @@ a:hover {
 }
 
 
+/* GLOBAL WIDTH */
+/* GLOBAL WIDTH */
+
+.introduction {
+	width: 435px;
+	margin: 0px auto 100px auto;
+	text-align: left;
+}
+
+.me {
+	width: 435px;
+	margin: 0px auto 65px auto;
+	text-align: left;
+}
+
+
 /* TOP BAR */
 /* TOP BAR */
 
 .header {
+	width: 435px;
 	margin: 0px auto;
-	width: 421px;
 } 
 
 .topbar {
-/*	width: 237px;
-	height: 60px;*/
 	margin: 100px auto 100px;
 }
 
@@ -172,26 +201,11 @@ a:hover {
 /* CONTENT - INTRODUCTION */
 /* CONTENT - INTRODUCTION */
 
-.introduction {
-	width: 421px;
-	margin: 0px auto 100px auto;
-	text-align: left;
-}
-
 .introduction p1 {
 	font-size: 25px;
 	font-family: 'Avenir Next Regular', serif;
 	letter-spacing: 1px;
 	line-height: 50px;
-	padding-top: 0px;
-}
-
-.introduction p2 {
-	font-size: 20px;
-	font-family: 'Avenir Next Regular', serif;
-	letter-spacing: 1px;
-	line-height: 40px;
-	margin-bottom: 75px;
 	padding-top: 0px;
 }
 
@@ -271,7 +285,7 @@ a:hover {
 	left: 0;
 }
 
-.project p2 {
+.project h3 {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -374,4 +388,16 @@ a:hover {
  	height: 10px;
  	width: 30px;
  	display: none;
+}
+
+
+/* CONTENT - ABOUT */
+/* CONTENT - ABOUT */
+
+.me h2 {
+	font-size: 11px;
+}
+
+.resume {
+	margin-bottom: 30px;
 }
