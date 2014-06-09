@@ -77,7 +77,7 @@ h3 {
 p {
 	font-family: 'Avenir Next Regular', sans serif;
 	font-size: 18px;
-	letter-spacing: .1em;
+	letter-spacing: .05em;
 	line-height: 1.75em;
 	margin: 0px;
 }
@@ -335,6 +335,71 @@ a:hover {
 }
 
 
+
+/* CONTENT - ABOUT */
+/* CONTENT - ABOUT */
+
+
+
+/* CONTENT - RESUME */
+/* CONTENT - RESUME */
+
+/*.resume p {
+	margin-left: 200px;
+}*/
+
+.me h2 {
+	font-size: 11px;
+	margin-bottom: 28px;
+}
+
+.resume {
+	margin-bottom: 35px;
+}
+
+.resume-desc {
+	margin-left: 170px;
+}
+
+.resume-desc a {
+	text-decoration: none;
+	border-bottom: 2px solid #EEE;
+}
+
+.resume-desc a:hover {
+	border-bottom: 2px solid #99FFA0;
+}
+
+.resume-logo.wb img {
+	width: 125px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.resume-logo.rokkan img {
+	width: 97px;
+	margin-top: -7px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.resume-logo.harvard img {
+	width: 123px;
+	margin-top: 1px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.resume-logo.cornell img {
+	width: 104px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+
+
 /* CONTENT - LOGOS */
 /* CONTENT - LOGOS */
 
@@ -394,16 +459,4 @@ a:hover {
  	height: 10px;
  	width: 30px;
  	display: none;
-}
-
-
-/* CONTENT - ABOUT */
-/* CONTENT - ABOUT */
-
-.me h2 {
-	font-size: 11px;
-}
-
-.resume {
-	margin-bottom: 30px;
 }
