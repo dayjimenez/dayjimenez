@@ -148,15 +148,27 @@ a:hover {
 	text-align: center;
 	width: 237px;
 	height: 60px;
-	border-bottom: 4px #000 solid;
+	border-bottom: 4px #000000 solid;
 	font-weight: 400;
 	letter-spacing: -1px;
 }
 
+.name.interactive:hover {
+	color: #363636;
+	border-bottom: 4px #363636 solid;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
 .nav {
-/*	float: right;*/
 	text-align: center;
 	height: 60px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 }
 
 .nav h2 {
@@ -167,39 +179,32 @@ a:hover {
 
 .nav.about {
 	float: left;
-	margin-left: 30px;
+	margin-left: 42px;
 	border-bottom: 4px #ffffff solid;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
 }
 
 .nav.about:hover {
 	border-bottom: 4px #b2b2b2 solid;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
 }
 
 .nav.works {
 	float: left;
-	margin-left: 30px;
+	margin-left: 38px;
 	border-bottom: 4px #ffffff solid;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
 }
 
 .nav.works:hover {
 	border-bottom: 4px #b2b2b2 solid;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-o-transition: all .3s;
-	transition: all .3s;
 }
+
+.nav.about.current {
+	border-bottom: 4px #000000 solid;
+}
+
+.nav.current h2 {
+	color: #000000;
+}
+
 
 
 /* CONTENT */
