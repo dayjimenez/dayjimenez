@@ -1,111 +1,121 @@
-  /*      BEGIN     //////////////////////////////////////////////////////////////// */
-  
-  /* /////////////////////////////////////////////////////////////////////////////// */
-  
-  
-  /*
-  //			Small Screen focused Media Queries (960px wide)
-  */
+/*
+//			Large Screen focused Media Queries
+*/
   
   
-  @media all and (max-width: 980px) {
- 
- }
-  
-  /* /////////////////////////////////////////////////////////////////////////////// */
-  
-  
-  /*
-  //			Small Screen focused Media Queries (600px wide)
-  */
-  
- 
-  @media only screen and (max-width : 800px) {  
+@media all and (max-width: 980px) {}
 
-.header {
-     width: 520px;
- }
+  
+/*
+//			Medium Screen focused Media Queries
+*/
+  
  
-.name {
-     font-size: 35px;
-     letter-spacing: -1px;
-     text-align: center;
-     margin: 100px auto 100px 0px;
-     width: 208px;
-     border-bottom: 4px #000 solid;
-     
+@media only screen and (max-width : 800px) {  
+
+/*  .header {
+      width: 520px;
+   }
+   
+  .name {
+      font-size: 35px;
+      letter-spacing: -1px;
+      text-align: center;
+      margin: 100px auto 100px 0px;
+      width: 208px;
+      border-bottom: 4px #000 solid;
+  }
+   
+  .introduction {
+      width: 520px;
+  }
+   
+  .introduction p1 {
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 40px;
+      margin-bottom: 75px;
+      padding-top: 0px;
+  }
+   
+  .introduction p2 {
+      font-size: 15px;
+      letter-spacing: 1px;
+      line-height: 30px;
+      margin-bottom: 75px;
+      padding-top: 0px;
+  }*/
+
+  h2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  .project h2 {
+    margin-top: 15%;
+    opacity: .35;
+  }
+
+  .project h3 {
+    margin-top: 80%;
+  }
 
 }
- 
- .introduction {
-     width: 520px;
- }
- 
- .introduction p1 {
-     font-size: 20px;
-     letter-spacing: 1px;
-     line-height: 40px;
-     margin-bottom: 75px;
-     padding-top: 0px;
- }
- 
- .introduction p2 {
-     font-size: 15px;
-     letter-spacing: 1px;
-     line-height: 30px;
-     margin-bottom: 75px;
-     padding-top: 0px;
- }
+  
+/*
+//			Small Screen focused Media Queries
+*/
+  
+  
+@media only screen and (max-width : 600px) {  
+  
+  a {
+      border-bottom: 2px solid #EEE;
+  }
 
+  a:hover {
+      border-bottom: 2px solid #99FFA0;
+  }
 
- 
-}
-  
-  /* /////////////////////////////////////////////////////////////////////////////// */
-  
-  
-  /*
-  //			Extra-Small Screen focused Media Queries (600px wide)
-  */
-  
-  
-    @media only screen and (max-width : 600px) {  
-  
-a {
-	  border-bottom: 2px solid #EEE;
-}
-
-a:hover {
-	border-bottom: 2px solid #99FFA0;
-}
-
-.header {
+  .header {
       width: 300px;
   }
- 
- .name {
+   
+  .name {
       font-size: 30px;
       letter-spacing: -1px;
-	  line-height: 40px;
+      line-height: 40px;
       text-align: center;
       margin: 50px auto 50px 0px;
       width: 178px;
       border-bottom: 4px #000 solid;
- }
- 
- .body {
-     width: 100%;
-     margin: 0px auto;
- 
- }
- 
+  }
+   
+  .body {
+      width: 100%;
+      margin: 0px auto;
+  }
+   
   .introduction {
       width: 300px;
   }
- 
+   
   .introduction h1 {
       padding-top: 50px;
-	  font-size: 9px;
+      font-size: 9px;
   }
 
   .introduction p1 {
@@ -115,7 +125,7 @@ a:hover {
       margin-bottom: 75px;
       padding-top: 0px;
   }
- 
+   
   .introduction p2 {
       font-size: 14px;
       letter-spacing: 1px;
@@ -123,48 +133,43 @@ a:hover {
       margin-bottom: 75px;
       padding-top: 0px;
   }
- 
-  /* // - Logos ///////////////////////////////////// */
- 
-  .introduction wb {
-      height: 11px;
-      width: 129px;
-      margin-left: 1px;
-      margin-right: 1px;
-  }
- 
-  .introduction rokkan {
-      height: 12px;
-      width: 9px;
-      margin-left: 2px;
-      margin-right: 4px;
-  }
- 
-  .introduction harvard {
-      height: 11px;
-      width: 8px;
-      margin-left: 2px;
-      margin-right: 4px;
-  }
- 
-  .introduction cornell {
-      height: 11px;
-      width: 11px;
-      margin-left: 2px;
-      margin-right: 4px;
-  }
-  
-  }
-  
-    /* /////////////////////////////////////////////////////////////////////////////// */
 
+/*  h2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  .project h2 {
+    margin-top: 15%;
+    opacity: .35;
+  }
+
+  .project h3 {
+    margin-top: 80%;
+  }*/
+
+}
+
+
+/*
+//			Retina focused Media Queries
+*/
   
-  
-  /*
-  //			Retina focused Media Queries
-  */
-  
-  /*
+/*
+
   @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (   min--moz-device-pixel-ratio: 2),
@@ -174,19 +179,8 @@ a:hover {
   only screen and (                min-resolution: 2dppx) { 
   
     INSERT CSS HERE
-  
-  }
-  */
-  
-  /* //////////////////////////////////////////////////////////////////////   END    */
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    
+    }
+
+*/
+

@@ -74,6 +74,14 @@ h3 {
 	text-transform: uppercase;
 }
 
+h4 {
+	font-family: 'Avenir Next Demi';
+	font-size: 11px;
+	letter-spacing: 2px;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+
 p {
 	font-family: 'Avenir Next Regular', sans serif;
 	font-size: 18px;
@@ -329,8 +337,7 @@ a:hover {
 /* CONTENT - RESUME */
 /* CONTENT - RESUME */
 
-.me h2 {
-	font-size: 11px;
+.me h4 {
 	margin-bottom: 28px;
 }
 
