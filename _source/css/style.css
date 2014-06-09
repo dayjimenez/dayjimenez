@@ -176,7 +176,6 @@ a:hover {
 	line-height: 1em;
 }
 
-
 .nav.about {
 	float: left;
 	margin-left: 42px;
@@ -206,25 +205,14 @@ a:hover {
 }
 
 
-
-/* CONTENT */
-/* CONTENT */
-
-
-
-/* CONTENT - INTRODUCTION */
-/* CONTENT - INTRODUCTION */
-
+/* INDEX - CONTENT */
+/* INDEX - CONTENT */
 
 /* CONTENT - PROJECTS */
 /* CONTENT - PROJECTS */
 
 .projects {
 	text-align: center;
-/*	font-family: 'Avenir Next Demi';
-	font-size: 12px;
-	letter-spacing: 2px;
-	line-height: 2em;*/
 }
 
 .tile {
@@ -335,18 +323,11 @@ a:hover {
 }
 
 
-
-/* CONTENT - ABOUT */
-/* CONTENT - ABOUT */
-
-
+/* ABOUT - CONTENT */
+/* ABOUT - CONTENT */
 
 /* CONTENT - RESUME */
 /* CONTENT - RESUME */
-
-/*.resume p {
-	margin-left: 200px;
-}*/
 
 .me h2 {
 	font-size: 11px;
@@ -398,65 +379,3 @@ a:hover {
 	float: left;
 }
 
-
-
-/* CONTENT - LOGOS */
-/* CONTENT - LOGOS */
-
-.introduction wb {
-	background: url('../images/logo.png');
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-attachment: scroll;
-	background-size: 100%;
-	height: 15px;
-	width: 180px;
-	margin-left: 3px;
-	margin-right: 1px;
-	display: inline-block;
-}
-
-.introduction rokkan {
-	background: url('../images/rokkan.png');
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-attachment: scroll;
-	background-size: 100%;
-	height: 16px;
-	width: 11px;
-	margin-left: 3px;
-	margin-right: 6px;
-	display: inline-block;
-}
-
-.introduction harvard {
-	background: url('../images/harvard.png');
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-attachment: scroll;
-	background-size: 100%;
-	height: 16px;
-	width: 11px;
-	margin-left: 3px;
-	margin-right: 6px;
-	display: inline-block;
-}
-	
-.introduction cornell {
-	background: url('../images/cornell.png');
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-attachment: scroll;
-	background-size: 100%;
-	height: 16px;
-	width: 16px;
-	margin-left: 3px;
-	margin-right: 6px;
-	display: inline-block;
-}
-
-.introduction spacer {
- 	height: 10px;
- 	width: 30px;
- 	display: none;
-}
