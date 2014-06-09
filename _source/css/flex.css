@@ -72,6 +72,25 @@
     margin-top: 80%;
   }*/
 
+  p {
+    font-size: 18px;
+    letter-spacing: 0.055em;
+    line-height: 30px;
+  }
+
+  p1 {
+    font-size: 16px;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+  }
+
+  p2 {
+    display: block;
+    font-size: 10px;
+    letter-spacing: .1em;
+    line-height: 1.75em;
+  }
+
   .body {
       width: 100%;
       margin: 0px auto;
@@ -92,7 +111,7 @@
 
   .me {
     width: 280px;
-    margin: 0px auto 65px auto;
+    margin: 0px auto 45px auto;
   }
 
   .header {
@@ -140,20 +159,68 @@
     border-bottom: 3px #000000 solid;
   }
 
-  .introduction p1 {
-      font-size: 18px;
-      letter-spacing: 1px;
-      line-height: 30px;
-      padding-top: 0px;
-  }
-
   .tile {
     width: 100%;
   }
 
-.project {
-  display: block;
-  opacity: 1;
+  .project {
+    opacity: 1;
+  }
+
+.resume {
+  margin-bottom: 30px;
+}
+
+.resume p1 {
+    line-height: 1.5em;
+}
+
+.resume p2 {
+  padding-top: 5px;
+}
+
+.resume-desc {
+  margin-left: 135px;
+}
+
+.resume-desc a {
+  border-bottom: 1px solid #EEE;
+}
+
+.resume-desc a:hover {
+  border-bottom: 1px solid #99FFA0;
+}
+
+.resume-logo.wb img {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume-logo.rokkan img {
+  width: 73px;
+  margin-top: -7px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume-logo.harvard img {
+  width: 98px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume-logo.cornell img {
+  width: 80px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.resume.rokkan {
+  margin-bottom: 54px;
 }
 
 }

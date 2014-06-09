@@ -85,20 +85,19 @@ h4 {
 
 p {
 	font-family: 'Avenir Next Regular', sans serif;
-	font-size: 18px;
-	letter-spacing: .05em;
-	line-height: 1.75em;
-	margin: 0px;
-}
-
-p1 {
-	font-family: 'Avenir Next Regular', sans serif;
 	font-size: 25px;
 	letter-spacing: 0.055em;
 	line-height: 50px;
 	padding-top: 0px;
 }
 
+p1 {
+	font-family: 'Avenir Next Regular', sans serif;
+	font-size: 18px;
+	letter-spacing: .05em;
+	line-height: 1.75em;
+	margin: 0px;
+}
 
 p2 {
 	font-family: 'Avenir Next Regular', sans serif;
