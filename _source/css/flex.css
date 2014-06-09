@@ -11,54 +11,53 @@
 */
   
  
-@media only screen and (max-width : 800px) {  
-
-/*  .header {
-      width: 520px;
-   }
-   
-  .name {
-      font-size: 35px;
-      letter-spacing: -1px;
-      text-align: center;
-      margin: 100px auto 100px 0px;
-      width: 208px;
-      border-bottom: 4px #000 solid;
-  }
-   
-  .introduction {
-      width: 520px;
-  }
-   
-  .introduction p1 {
-      font-size: 20px;
-      letter-spacing: 1px;
-      line-height: 40px;
-      margin-bottom: 75px;
-      padding-top: 0px;
-  }
-   
-  .introduction p2 {
-      font-size: 15px;
-      letter-spacing: 1px;
-      line-height: 30px;
-      margin-bottom: 75px;
-      padding-top: 0px;
-  }*/
+@media only screen and (max-width : 900px) {  
 
   h2 {
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .project h2 {
+    margin-top: 12%;
+  }
+
+  .project h3 {
+    margin-top: 80%;
+  }
+
+}
+ 
+
+/*
+//			Small Screen focused Media Queries
+*/
+  
+@media only screen and (max-width : 600px) {  
+  
+  h1 {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-size: 11px;
     letter-spacing: 2px;
     line-height: 2em;
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 2px;
     line-height: 2em;
   }
 
-  h4 {
+/*  h4 {
     font-size: 11px;
     letter-spacing: 2px;
     line-height: 2em;
@@ -71,17 +70,13 @@
 
   .project h3 {
     margin-top: 80%;
+  }*/
+
+  .body {
+      width: 100%;
+      margin: 0px auto;
   }
 
-}
-  
-/*
-//			Small Screen focused Media Queries
-*/
-  
-  
-@media only screen and (max-width : 600px) {  
-  
   a {
       border-bottom: 2px solid #EEE;
   }
@@ -90,76 +85,76 @@
       border-bottom: 2px solid #99FFA0;
   }
 
-  .header {
-      width: 300px;
-  }
-   
-  .name {
-      font-size: 30px;
-      letter-spacing: -1px;
-      line-height: 40px;
-      text-align: center;
-      margin: 50px auto 50px 0px;
-      width: 178px;
-      border-bottom: 4px #000 solid;
-  }
-   
-  .body {
-      width: 100%;
-      margin: 0px auto;
-  }
-   
   .introduction {
-      width: 300px;
+      width: 280px;
+      margin: 0px auto 80px auto;
   }
-   
-  .introduction h1 {
-      padding-top: 50px;
-      font-size: 9px;
+
+  .me {
+    width: 280px;
+    margin: 0px auto 65px auto;
+  }
+
+  .header {
+      width: 280px;
+  }
+
+  .topbar {
+      margin: 80px auto 80px;
+  }
+
+  .name {
+      font-size: 23px;
+      height: 50px;
+      border-bottom: 3px #000000 solid;
+      letter-spacing: .1px;
+  }
+
+  .name.interactive:hover {
+    border-bottom: 3px #363636 solid;
+  }
+
+  .nav {
+    height: 50px;
+  }
+
+  .nav.about {
+    margin-left: 18px;
+    border-bottom: 3px #ffffff solid;
+  }
+
+  .nav.about:hover {
+    border-bottom: 3px #b2b2b2 solid;
+  }
+
+  .nav.works {
+    margin-left: 16px;
+    border-bottom: 3px #ffffff solid;
+  }
+
+  .nav.works:hover {
+    border-bottom: 3px #b2b2b2 solid;
+  }
+
+  .nav.about.current {
+    border-bottom: 3px #000000 solid;
   }
 
   .introduction p1 {
       font-size: 18px;
       letter-spacing: 1px;
       line-height: 30px;
-      margin-bottom: 75px;
-      padding-top: 0px;
-  }
-   
-  .introduction p2 {
-      font-size: 14px;
-      letter-spacing: 1px;
-      line-height: 28px;
-      margin-bottom: 75px;
       padding-top: 0px;
   }
 
-/*  h2 {
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 2em;
+  .tile {
+    width: 100%;
   }
 
-  h3 {
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 2em;
-  }
-
-  h4 {
-    font-size: 11px;
-    letter-spacing: 2px;
-    line-height: 2em;
-  }
-
-  .project h2 {
-    margin-top: 15%;
-    opacity: .35;
-  }
-
-  .project h3 {
-    margin-top: 80%;
-  }*/
+.project {
+  display: block;
+  opacity: 1;
+}
 
 }
 
