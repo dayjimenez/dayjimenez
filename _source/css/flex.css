@@ -119,7 +119,7 @@
   }
 
   .topbar {
-      margin: 80px auto 80px;
+      margin: 50px auto 80px;
   }
 
   .name {
@@ -147,7 +147,7 @@
   }
 
   .nav.works {
-    margin-left: 16px;
+    margin-left: 15px;
     border-bottom: 3px #ffffff solid;
   }
 
