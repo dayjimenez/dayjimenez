@@ -239,17 +239,14 @@ a:hover {
 	transition: all .7s ease-in-out;
 }
 
-/*.tile.one:hover .project.one {
-	display: block;
+.tile-image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
 }
-
-.tile.two:hover .project.two {
-	display: block;
-}
-
-.tile.three:hover .project.three {
-	display: block;
-}*/
 
 .project {
 	display: block;
@@ -272,6 +269,7 @@ a:hover {
 	left: 0;
 	margin-top: 15%;
 	opacity: .35;
+	z-index: 100;
 }
 
 .project-logo {
@@ -280,6 +278,7 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	left: 0;
+	z-index: 200;
 }
 
 .project h3 {
@@ -324,6 +323,23 @@ a:hover {
 .project-logo.three img {
 	width: 30%;
 	padding-top: 39%;
+}
+
+.tile-image.one img {
+	width: 70%;
+	margin-top: 15%;
+}
+
+.tile-image.two img {
+	width: 100%;
+	margin-top: 0;
+	opacity: .7;
+}
+
+.tile-image.three img {
+	width: 70%;
+	padding-top: 22%;
+	opacity: .9;
 }
 
 
