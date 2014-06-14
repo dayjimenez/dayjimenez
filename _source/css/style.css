@@ -394,3 +394,8 @@ a:hover {
 	float: left;
 }
 
+.forward {
+	position: absolute;
+	height: 20px;
+	padding: 7px 0 0 5px;
+}
