@@ -301,7 +301,7 @@ a:hover {
 }
 
 .tile.two {
-	background-color: #262626;
+	background-color: #000000;
 	color: #B0B0B0;
 }
 
@@ -321,8 +321,8 @@ a:hover {
 }
 
 .project-logo.three img {
-	width: 30%;
-	padding-top: 39%;
+	width: 38%;
+	padding-top: 43%;
 }
 
 .tile-image.one img {
