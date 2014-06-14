@@ -268,7 +268,7 @@ a:hover {
 	bottom: 0;
 	left: 0;
 	margin-top: 15%;
-	opacity: .35;
+	/*opacity: .35;*/
 	z-index: 100;
 }
 
@@ -317,11 +317,11 @@ a:hover {
 
 .project-logo.two img {
 	width: 70%;
-	margin-top: 46%;
+	margin-top: 44%;
 }
 
 .project-logo.three img {
-	width: 38%;
+ 	width: 38%;
 	padding-top: 43%;
 }
 
@@ -339,7 +339,7 @@ a:hover {
 .tile-image.three img {
 	width: 70%;
 	padding-top: 22%;
-	opacity: .9;
+	opacity: .7;
 }
 
 
