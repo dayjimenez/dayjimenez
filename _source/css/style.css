@@ -245,7 +245,6 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: 1;
 }
 
 .project {
@@ -268,7 +267,7 @@ a:hover {
 	bottom: 0;
 	left: 0;
 	margin-top: 15%;
-	/*opacity: .35;*/
+	opacity: .2;
 	z-index: 100;
 }
 
@@ -339,7 +338,6 @@ a:hover {
 .tile-image.three img {
 	width: 70%;
 	padding-top: 22%;
-	opacity: .7;
 }
 
 
