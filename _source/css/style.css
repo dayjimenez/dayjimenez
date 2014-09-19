@@ -314,6 +314,7 @@ a:hover {
 .tile.four {
 	background-color: #fecb45;
 	color: #000000;
+	margin: 0px auto 100px 33.3%;
 }
 
 .project-logo.one img {
