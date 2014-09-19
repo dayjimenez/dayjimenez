@@ -167,6 +167,10 @@
     opacity: 1;
   }
 
+  .tile.four {
+  margin: 0px;
+}
+
 .resume {
   margin-bottom: 30px;
 }
