@@ -29,21 +29,21 @@ Search:
 /* DEFAULT STYLING */
 
 @font-face {
-	font-family: Avenir Next Regular;
+	font-family: 'Avenir Next Regular';
 	src: url('../fonts/avenir-next-regular.woff');
 }
 
 @font-face {
-	font-family: Avenir Next Demi;
+	font-family: 'Avenir Next Demi';
 	src: url('../fonts/avenir-next-demi.woff');
 }
 
 @font-face {
-	font-family: Merriweather;
-	src: url('../fonts/merriweather-regular.ttf') format ('truetype'),
-		 url('../fonts/merriweather-regular.woff') format ('woff'),
-		 url('../fonts/merriweather-regular.eot') format ('eot'),
-		 url('../fonts/merriweather-regular.svg') format ('svg');
+	font-family: 'Merriweather';
+	src: url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.ttf') format ('truetype'),
+		 url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.woff') format ('woff'),
+		 url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.eot') format ('eot'),
+		 url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.svg') format ('svg');
 }
 
 body {
