@@ -40,7 +40,10 @@ Search:
 
 @font-face {
 	font-family: Merriweather;
-	src: url('../fonts/Merriweather-Regular.ttf');
+	src: url('../fonts/merriweather-regular.ttf') format ('truetype'),
+		 url('../fonts/merriweather-regular.woff') format ('woff'),
+		 url('../fonts/merriweather-regular.eot') format ('eot'),
+		 url('../fonts/merriweather-regular.svg') format ('svg');
 }
 
 body {
@@ -154,7 +157,7 @@ a:hover {
 .name {
 	float: left;
 	font-size: 40px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', Georgia, serif;
 	text-align: center;
 	height: 60px;
 	border-bottom: 4px #000000 solid;
