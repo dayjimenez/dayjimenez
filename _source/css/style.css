@@ -40,10 +40,10 @@ Search:
 
 @font-face {
 	font-family: 'Merriweather';
-	src: url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.ttf') format ('truetype'),
-		 url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.woff') format ('woff'),
-		 url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.eot') format ('eot'),
-		 url('http://www.dayjimenez.me/_source/fonts/merriweather-regular.svg') format ('svg');
+	src: url('../fonts/merriweather-regular.ttf'),
+		 url('../fonts/merriweather-regular.woff'),
+		 url('../fonts/merriweather-regular.eot'),
+		 url('../fonts/merriweather-regular.svg');
 }
 
 body {
@@ -53,7 +53,7 @@ body {
 }
 
 h1 {
-	font-family: 'Avenir Next Demi', sans serif;
+	font-family: 'Avenir Next Demi', Avenir, sans serif;
 	font-size: 12px;
 	font-weight: normal;
 	letter-spacing: 2px;
@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Avenir Next Demi';
+	font-family: 'Avenir Next Demi', Avenir, sans serif;
 	font-size: 12px;
 	letter-spacing: 2px;
 	line-height: 2em;
@@ -71,7 +71,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Avenir Next Demi';
+	font-family: 'Avenir Next Demi', Avenir, sans serif;
 	font-size: 12px;
 	letter-spacing: 2px;
 	line-height: 2em;
@@ -79,7 +79,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'Avenir Next Demi';
+	font-family: 'Avenir Next Demi', Avenir, sans serif;
 	font-size: 11px;
 	font-weight: normal;
 	letter-spacing: 2px;
@@ -89,7 +89,7 @@ h4 {
 }
 
 p {
-	font-family: 'Avenir Next Regular', sans serif;
+	font-family: 'Avenir Next Regular', Avenir, sans serif;
 	font-size: 25px;
 	letter-spacing: 0.055em;
 	line-height: 50px;
@@ -97,7 +97,7 @@ p {
 }
 
 p1 {
-	font-family: 'Avenir Next Regular', sans serif;
+	font-family: 'Avenir Next Regular', Avenir, sans serif;
 	font-size: 18px;
 	letter-spacing: .05em;
 	line-height: 1.75em;
@@ -105,7 +105,7 @@ p1 {
 }
 
 p2 {
-	font-family: 'Avenir Next Regular', sans serif;
+	font-family: 'Avenir Next Regular', Avenir, sans serif;
 	font-size: 12px;
 	letter-spacing: .1em;
 	line-height: 1.75em;
