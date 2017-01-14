@@ -319,12 +319,12 @@ a:hover {
 }
 
 .tile.three {
-	background-color: #fe3f4b;
+	background-color: #fecb45;
 	color: #000000;
 }
 
 .tile.four {
-	background-color: #fecb45;
+	background-color: #fe3f4b;
 	color: #000000;
 	margin: 0px auto 120px 33.3%;
 }
@@ -341,7 +341,7 @@ a:hover {
 
 .project-logo.three img {
  	width: 38%;
-	padding-top: 43%;
+	padding-top: 47%;
 }
 
 .project-logo.four img {
