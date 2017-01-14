@@ -46,6 +46,15 @@ Search:
 		 url('../fonts/merriweather-regular.svg');
 }
 
+@font-face {
+	font-family: 'Graphik Bold';
+	src: url('../fonts/Graphik-Bold.ttf'),
+		 url('../fonts/Graphik-Bold.woff'),
+		 url('../fonts/Graphik-Bold.woff2'),
+		 url('../fonts/Graphik-BOld.eot'),
+		 url('../fonts/Graphik-BOld.svg');
+}
+
 body {
 	font-size: 10px;
 	margin: 0px;
@@ -157,7 +166,7 @@ a:hover {
 .name {
 	float: left;
 	font-size: 40px;
-	font-family: 'Merriweather', Georgia, serif;
+	font-family: 'Graphik Bold', Avenir, Helvetica, serif;
 	text-align: center;
 	height: 60px;
 	border-bottom: 4px #000000 solid;
