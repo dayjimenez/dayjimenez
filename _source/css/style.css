@@ -318,8 +318,8 @@ a:hover {
 /* CONTENT - PROJECT BY PROJECT */
 
 .tile.one {
-	background-color: #4f91cd;
-	color: #004990;
+	background-color: #fecb45;
+	color: #000000;
 }
 
 .tile.two {
@@ -328,8 +328,8 @@ a:hover {
 }
 
 .tile.three {
-	background-color: #fecb45;
-	color: #000000;
+	background-color: #4f91cd;
+	color: #004990;
 }
 
 .tile.four {
