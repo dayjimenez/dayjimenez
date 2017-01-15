@@ -100,7 +100,7 @@ h4 {
 p {
 	font-family: 'Avenir Next Regular', Avenir, sans serif;
 	font-size: 25px;
-	letter-spacing: 0.055em;
+	letter-spacing: 0.05em;
 	line-height: 50px;
 	padding-top: 0px;
 }
@@ -108,7 +108,7 @@ p {
 p1 {
 	font-family: 'Avenir Next Regular', Avenir, sans serif;
 	font-size: 18px;
-	letter-spacing: .05em;
+	letter-spacing: .03em;
 	line-height: 1.75em;
 	margin: 0px;
 }
@@ -116,7 +116,7 @@ p1 {
 p2 {
 	font-family: 'Avenir Next Regular', Avenir, sans serif;
 	font-size: 12px;
-	letter-spacing: .1em;
+	letter-spacing: .05em;
 	line-height: 1.75em;
 }
 
