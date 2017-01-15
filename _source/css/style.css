@@ -175,7 +175,7 @@ a:hover {
 .name {
 	float: left;
 	font-size: 40px;
-	font-family: 'Graphik Bold', Avenir, Helvetica, serif;
+	font-family: 'Graphik Bold', Avenir, Helvetica, sans-serif;
 	text-align: center;
 	height: 60px;
 	border-bottom: 4px #000000 solid;
