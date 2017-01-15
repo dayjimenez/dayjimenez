@@ -181,6 +181,10 @@ a:hover {
 	border-bottom: 4px #000000 solid;
 	font-weight: 400;
 	letter-spacing: -1px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 }
 
 .name.interactive:hover {
