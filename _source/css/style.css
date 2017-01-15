@@ -318,7 +318,7 @@ a:hover {
 /* CONTENT - PROJECT BY PROJECT */
 
 .tile.one {
-	background-color: #fecb45;
+	background-color: #FFCC33;
 	color: #000000;
 }
 
@@ -437,6 +437,13 @@ a:hover {
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
+}
+
+.resume-logo.airbnb img {
+	width: 100px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	float: left;
 }
 
 .resume-logo.canary img {
