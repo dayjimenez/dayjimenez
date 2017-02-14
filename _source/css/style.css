@@ -100,7 +100,7 @@ h4 {
 p {
 	font-family: 'Avenir Next Regular', Avenir, sans serif;
 	font-size: 25px;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.04em;
 	line-height: 50px;
 	padding-top: 0px;
 }
@@ -148,7 +148,7 @@ a:hover {
 /* GLOBAL WIDTH */
 
 .introduction {
-	width: 435px;
+	width: 425px;
 	margin: 0px auto 100px auto;
 	text-align: left;
 }
@@ -164,7 +164,7 @@ a:hover {
 /* TOP BAR */
 
 .header {
-	width: 435px;
+	width: 425px;
 	margin: 0px auto;
 } 
 
@@ -288,6 +288,7 @@ a:hover {
 }
 
 .project h2 {
+	font-family: Avenir, Helvetica, sans-serif; 
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -296,6 +297,7 @@ a:hover {
 	margin-top: 15%;
 	opacity: .2;
 	z-index: 100;
+	-webkit-font-smoothing: antialiased;
 }
 
 .project-logo {
@@ -308,6 +310,7 @@ a:hover {
 }
 
 .project h3 {
+	font-family: Avenir, Helvetica, sans-serif;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -315,6 +318,7 @@ a:hover {
 	left: 0;
 	margin-top: 80%;
 	padding: 0 5%;
+	-webkit-font-smoothing: antialiased;
 }
 
 
