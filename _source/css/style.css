@@ -326,13 +326,13 @@ a:hover {
 /* CONTENT - PROJECT BY PROJECT */
 
 .tile.one {
-	background-color: #FFCC33;
-	color: #000000;
+	background-color: #5591c3;
+	color: #ffffff;
 }
 
 .tile.two {
-	background-color: #000000;
-	color: #B0B0B0;
+	background-color: #FFCC33;
+	color: #000000;
 }
 
 .tile.three {
@@ -340,19 +340,19 @@ a:hover {
 	color: #004990;
 }
 
-.tile.four {
+/* .tile.four {
 	background-color: #5591c3;
 	color: #ffffff;
 	margin: 0px auto 120px 33.3%;
-}
+} */
 
 .project-logo.one img {
-	width: 40%;
+	width: 55%;
 	margin-top: 44%;
 }
 
 .project-logo.two img {
-	width: 70%;
+	width: 40%;
 	margin-top: 44%;
 }
 
@@ -361,20 +361,19 @@ a:hover {
 	padding-top: 47%;
 }
 
-.project-logo.four img {
+/* .project-logo.four img {
  	width: 55%;
 	padding-top: 47%;
-}
+} */
 
 .tile-image.one img {
-	width: 70%;
-	margin-top: 15%;
+	width: 100%;
+	margin-top: 0;
 }
 
 .tile-image.two img {
-	width: 100%;
-	margin-top: 0;
-	opacity: .7;
+	width: 70%;
+	margin-top: 15%;
 }
 
 .tile-image.three img {
@@ -433,6 +432,7 @@ a:hover {
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
