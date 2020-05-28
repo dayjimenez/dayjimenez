@@ -133,9 +133,9 @@ p {
 }
 
 p1 {
-	font-family: 'Graphik Regular', Arial, Helvetica, sans-serif;
+	font-family: 'Graphik Light', Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	letter-spacing: .025em;
+	letter-spacing: .03em;
 	line-height: 2em;
 	/* color: #555555; */
 	margin: 0px;
@@ -144,7 +144,7 @@ p1 {
 p2 {
 	font-family: 'Graphik Regular', Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	letter-spacing: .03em;
+	letter-spacing: .04em;
 	line-height: 1.75em;
 }
 
