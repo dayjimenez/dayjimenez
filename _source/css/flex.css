@@ -196,6 +196,33 @@
   border-bottom: 1px solid #99FFA0;
 }
 
+/* .leaving {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 8px;
+	font-size: 10px;
+} */
+
+/* MIGHT NOT NEED THIS ABOVE */
+
+.resume-logo.parsley img {
+  width: 100px;
+  margin-top: 6px;
+  float: left;
+}
+
+.resume-logo.airbnb img {
+  width: 80px;
+  margin-top: -1px;
+  float: left;
+}
+
+.resume-logo.canary img {
+  width: 55px;
+  margin-top: 6px;
+  float: left;
+}
+
 .resume-logo.wb img {
   width: 100px;
   margin-top: 10px;
