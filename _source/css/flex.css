@@ -27,9 +27,9 @@
     margin-top: 12%;
   }
 
-  .project h3 {
+  /* .project h3 {
     margin-top: 80%;
-  }
+  } */
 
 }
  
@@ -170,6 +170,18 @@
 
   .tile.four {
   margin: 0px;
+}
+
+.project-logo.one {
+	background-color: rgba(65, 108, 98, 0.1);
+}
+
+.project-logo.two {
+	background-color: rgba(255, 56, 92, 0.1);
+}
+
+.project-logo.three {
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .resume {
